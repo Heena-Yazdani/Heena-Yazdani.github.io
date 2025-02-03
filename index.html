@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6a4ce21491.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="head"   data-aos="fade-down">
+            <nav >
+                <p><span>H</span>eena</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Resume</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas faicon" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas faicon" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p data-aos="fade-left">DATA ANALYST</p>
+                <h1 data-aos="fade-right">Hi, I'm <span> Heena Yazdani</span></h1>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1" data-aos="fade-left">
+                    <img src="image/p1.jpg" alt="">
+                </div>
+                <div class="about-col-2" data-aos="fade-right">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Hello, I'm <span>Heena Yazdani</span>, currently pursuing my bachelor's degree in computer
+                        science at Dr. A.P.J ABDUL KALAM TECHNICAL UNIVERSITY, LUCKNOW.  I'm a fresher in data analysis, 
+                        excited to start my career in the field. I've learned tools like Python, SQL, Power-BI and Excel and enjoy 
+                        exploring data to find patterns and insights. I'm passionate about solving problems and want to use my 
+                        skills to help businesses make better decisions. "</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links faicon " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links faicon" onclick="opentab('education')">Education</p>
+                        <p class="tab-links faicon" onclick="opentab('experience')">Experience</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DATA ANALYST</span><br>Understanding of data cleaning, transforming, and exploring data for insights</li>
+                            <li><span>Data Visualization</span> <br> Matplotlib <br>Seaborn </li>
+                            <li><span>Programming Language</span><br>Python</li>
+                            <li><span>Database</span><br>SQL<br>
+                                PostgreSQL</li>
+                            <li><span>Tools</span><br>Git And Github <br>Excel 
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025 - Pursuing</span><br>B.Tech From Dr. APJ Abdul Kalam Technical University ,Lucknow
+                            <li><span>2019</span><br>Intermediate From BNCET College KHARAUNA,MUZAFFARPUR</li>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><br>Fresher</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------portfolio------------- -->
+    <div id="portfolio" data-aos="fade-right">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/Bank_Management.png" alt="Metrimony Website">
+                    <div class="layer">
+                        <h3> Excel Bank Management Dashboard</h3>
+                        <p class="faicon">Analyze customer details like credit card usage, account balance, housing loans, and education to identify patterns or trends.
+                             Highlight actionable insights, such as which customers are likely to take loans or how balance trends relate to credit card usage.
+                            Present KPIs like loan repayment rates, credit card spending patterns, or customer retention insights.
+                            <br> Create a platform for individuals to find compatible life partners.
+
+                        </p>
+                        <br>
+                        <h4>What I Did: </h4>
+                        <br>
+                        <p>Data Cleaning and Preparation ( Process raw data to ensure accuracy and consistency before analysis ).
+                           
+                        </p>
+                        <p> Focus on Visualization by Using charts and graphs to present findings clearly.
+                          
+                        </p>
+                        <p>Focus on provide actionable suggestions based on trends.</p>
+                        <div class="faicon"> 
+                            <a href="https://docs.google.com/spreadsheets/d/1bZpKDGGo9yyX-Ss3s6X-G14YppgjpRNT/edit?usp=drive_link&ouid=114435478948909730467&rtpof=true&sd=true"><i
+                                    class="fa-solid fa-arrow-up-right-from-square faicon"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/healthcare.png" alt="healthcare analysis">
+                    <div class="layer">
+                        <h3>Hospital Data</h3>
+                        <p class="faicon">
+                            Analyze hospital records including patient count, doctor availability, medical expenses, admission/discharge trends, and department performance to identify key patterns.
+                            Highlight actionable insights, such as which departments handle the most patients, how medical expenses vary across hospitals, and which hospitals have the longest patient stays.
+                            Present KPIs like average stay duration per department, hospital with the highest medical expenses, patient distribution across cities, and top-performing departments based on patient load.</p>
+                        <br>
+                        <h4>What I Did: </h4>
+                        <br>
+                        <p>Conducted in-depth SQL-based hospital data analysis.</p>
+                        <p>Extracted actionable insights.</p>
+                        <p>Developed key performance metrics (KPIs).</p>
+                        <div class="faicon"> 
+                            <a href="https://github.com/Heena-Yazdani/hospital-data-analysis"><i
+                                    class="fa-solid fa-arrow-up-right-from-square faicon"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="work">
+                    <img src="image/gym.png" alt="Gym Website">
+                    <div class="layer">
+                        <h3>Gym Website Project</h3>
+                        <p class="faicon">Designed and developed a cutting-edge, responsive gym website leveraging HTML5, CSS3, and
+                            JavaScript technologies to deliver an immersive user experience.
+                        </p>
+
+                        <br>
+                        <h4>What I Did: </h4>
+                        <br>
+                        <p>Smooth animations using AOS (Animate On Scroll) library for captivating scrolling effects</p>
+                        <p>Fully responsive design for seamless functionality across various devices and screen sizes
+                        </p>
+                        <p>Created an engaging and interactive website with smooth animations
+                        </p>
+
+                        <div class="faicon"> 
+                            <a href="https://github.com/Sayista-Yazdani/Gym_Website"><i
+                                    class="fa-brands fa-square-github faicon"></i></a>
+                            <a href="https://sayista-yazdani.github.io/Gym_Website/"><i
+                                    class="fa-solid fa-arrow-up-right-from-square faicon"></i></a>
+                        </div>
+
+                    </div>
+                </div> -->
+
+            </div>
+
+            <a href="https://github.com/Heena-Yazdani" class="btn">More Project on Github</a>
+        </div>
+    </div>
+
+
+        <!-- ----------services------- -->
+        <div id="services" data-aos="fade-left">
+            <div class="container">
+                <h1 class="sub-title">Resume</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code faicon"></i>
+                        <h2>Fresher</h2>
+                        <p>Worked on multiple projects using Python libraries like Pandas, NumPy, and Seaborn to clean, analyze, and visualize data collected through web scraping from real-world sources.
+                            Built insightful dashboards and reports by combining data from web scraping with SQL queries and Excel, showcasing trends and actionable insights for business scenarios.</p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa fa-graduation-cap"></i>
+                        <h2>Education</h2>
+                        <span>2021-2025</span>
+                        <h3>Bachelor Of Technology</h3>
+                        <span> Dr. A.P.J Abdul Kalam Technical University</span>
+                        <p>Grade: First class distinction.</p>
+                        <br>
+                        <span>2018-2019</span>
+                        <h3>Higher Secondary School</h3>
+                        <span>B.C.B.D College Kharauna</span>
+                        <p>Grade: First class distinction.</p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa fa-certificate"></i>
+                        <h2>Certifications</h2>
+                        <span><h3>Excel</h3></span>
+                        <p>Basic to Advance :- UDEMY </p><br>
+                        <span><h3>SQL</h3></span>
+                        <p>Basic to Advance :- Coursepe</p><br>
+                        <span> <h3>Python</h3></span>
+                        <p>Basic:- ELECTROCUS SOLUTION</p><br>
+                        <span> <h3>Problem Solving </h3>
+                        <p>C & SQL :- HACKER RANK</p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- -----------contact----------- -->
+
+    <div id="contact" data-aos="fade-left" >
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div>
+                        <i class="fa-solid fa-paper-plane faicon"></i>
+                        <p>yazdaniheena@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-square-phone faicon"></i>
+                        <p> 9852078667</p>
+                    </div>
+                     <div class="social-icons">
+                         <!-- <a href=""><i class="fa-brands fa-twitter-square faicon"></i></a> --> 
+                        <a href="https://www.instagram.com/coderqueen7/"><i class="fa-brands fa-instagram faicon"></i></a>
+                        <a href="www.linkedin.com/in/heena-yazdani-261004349/"><i class="fa-brands fa-linkedin faicon"></i></a></div>
+                 
+
+
+                    <a href="image/Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form method="post"
+                        action="https://script.google.com/macros/s/AKfycbzaKOh4DDMyYf6IYbNKJkyvu1HGSpP4i1GHvk08_Ni_LodFNjdFL5XVKHBPD_kKYEN7/exec"
+                        name="contact-form">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>@Copyright ©2024 created by Heena Yazdani | all rights reserved </p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 600, // Animation duration
+            easing: 'ease-in-out', // Easing function
+            once: true, // Whether animation should happen only once - while scrolling down
+        });
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
